@@ -1,19 +1,19 @@
 import java.util.Scanner;
-public class Rev {
-    public static void main(String[] args) {
+class Rev
+{
+    public static void main(String[] args)
+    {
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter a string to reverse:");
-        String str = sc.nextLine();
-        String reversedStr = reverseString(str);
-        System.out.println("Original String: " + str);
-        System.out.println("Reversed String: " + reversedStr);
-        sc.close();    }
-
-    public static String reverseString(String str) {
-        StringBuilder reversed = new StringBuilder();
-        for (int i = str.length() - 1; i >= 0; i--) {
-            reversed.append(str.charAt(i));
-        }
-        return reversed.toString();
+        System.out.println("enter the string:");
+        String s1 = sc.nextLine();
+        String s2 = r(s1);
+        System.out.println(s2);
+    }
+    public static String r(String s)
+    {
+        StringBuilder a = new StringBuilder();
+        for(int i=s.length()-1;i>=0;i--)
+            a.append(s.charAt(i));
+        return a.toString();
     }
 }

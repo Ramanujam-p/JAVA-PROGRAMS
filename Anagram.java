@@ -22,6 +22,6 @@ public class Anagram {
             System.out.println("both the strings are anagrams");
         else
             System.out.println("both the strings are not the anagrams");
-        
+            sc.close();
     }
 }

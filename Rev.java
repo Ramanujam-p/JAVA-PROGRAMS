@@ -8,6 +8,7 @@ class Rev
         String s1 = sc.nextLine();
         String s2 = r(s1);
         System.out.println(s2);
+        sc.close();
     }
     public static String r(String s)
     {

@@ -52,6 +52,12 @@ class arraypractices
      System.out.println("From which place the array was mismatching:"+Arrays.mismatch(n,p));
      System.out.println("From which place the array was mismatching:"+Arrays.hashCode(n));
      System.out.println("are the two array are equal or not:"+n.equals(p));
+     int x[] = {1,2,3};
+     int y[] = {1,2,3};
+     if(x.equals(y))
+        System.out.println("both are equal");
+     else
+        System.out.println("both are not equal");
      sc.close();
     }
 }

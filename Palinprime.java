@@ -10,7 +10,7 @@ public class Palinprime
     }
     public static boolean ispalin(int n)
     {
-        int r=0,s=0,t=n;
+        int r=0,t=n;
         while(n!=0)
         {
             int d = n%10;

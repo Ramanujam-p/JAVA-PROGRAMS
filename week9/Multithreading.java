@@ -31,6 +31,7 @@ class prime implements Runnable {
 
 public class Multithreading {
     public static void main(String[] args) throws InterruptedException {
+        System.out.println("Name:P.RAMANUJAM REG NO:2024503525");
         long start = System.currentTimeMillis();
         prime m1 = new prime(2, 100);
         prime m2 = new prime(101, 500);
@@ -47,6 +48,6 @@ public class Multithreading {
         int t = m1.gc() + m2.gc() + m3.gc();
         System.out.println(t);
         long end = System.currentTimeMillis();
-        System.out.println("time taken to finish the task is :" + (end - start) + "seconds");
+        System.out.println("time taken to finish the task is :" + (end - start));
     }
 }

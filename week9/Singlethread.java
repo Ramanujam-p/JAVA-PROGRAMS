@@ -11,6 +11,7 @@ public class Singlethread {
     }
 
     public static void main(String[] args) {
+        System.out.println("Name:P.RAMANUJAM REG NO:2024503525");
         long start = System.currentTimeMillis();
         int c = 0, a = 2;
         while (c < 100) {

@@ -16,6 +16,7 @@ class B implements Runnable {
 
 public class p2 {
     public static void main(String[] args) {
+        System.out.println("Name:P.RAMANUJAM REG NO:2024503525");
         A a = new A();
         B b = new B();
         Thread t1 = new Thread(a);

@@ -12,6 +12,7 @@ public class p3 {
     }
 
     public static void main(String[] args) throws InterruptedException {
+        System.out.println("Name:P.RAMANUJAM REG NO:2024503525");
         p3 obj = new p3();
         Thread t1 = new Thread(() -> {
             for (int i = 0; i < 10; i++) {

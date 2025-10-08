@@ -30,6 +30,7 @@ class sub extends Thread {
 
 public class p1 {
     public static void main(String[] args) {
+        System.out.println("Name:P.RAMANUJAM REG NO:2024503525");
         add obj = new add(5, 2);
         sub o = new sub(5, 2);
         obj.start();

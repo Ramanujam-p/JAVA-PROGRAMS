@@ -10,7 +10,7 @@ public class Shoppingcart extends JFrame implements ActionListener {
     JButton b1, b2, b3;
     ArrayList<String> list = new ArrayList<>();
     double total = 0.0;
-    String[] items = { "Select item", "Apple - ₹50", "Banana - ₹20", "Milk - ₹40", "Bread - ₹30", "Eggs - ₹60" };
+    String[] items = { "Select item", "Apple - 50", "Banana - 20", "Milk - 40", "Bread - 30", "Eggs - 60" };
     double[] price = { 0, 50, 20, 40, 30, 60 };
 
     Shoppingcart() {
@@ -53,12 +53,12 @@ public class Shoppingcart extends JFrame implements ActionListener {
                 JOptionPane.showMessageDialog(this, "Select a valid item!");
             }
         } else if (e.getSource() == b2) {
-            l3.setText("Total: ₹" + total);
+            l3.setText("Total:" + total);
         } else if (e.getSource() == b3) {
             list.clear();
             total = 0;
             ta.setText("");
-            l3.setText("Total: ₹0.00");
+            l3.setText("Total: 0.00");
         }
     }
 

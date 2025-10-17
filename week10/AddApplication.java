@@ -10,16 +10,16 @@ public class AddApplication extends JFrame implements ActionListener {
 
     AddApplication() {
         firstLabel = new JLabel("First Number");
-        firstLabel.setFont(new Font("Arial", Font.BOLD, 14));
+        firstLabel.setFont(new Font("Arial", Font.BOLD, 20));
         firstLabel.setForeground(Color.pink);
         firstLabel.setBackground(Color.gray);
         secondLabel = new JLabel("Second Number");
-        secondLabel.setFont(new Font("Arial", Font.BOLD, 14));
+        secondLabel.setFont(new Font("Arial", Font.BOLD, 20));
         secondLabel.setForeground(Color.blue);
         secondLabel.setBackground(Color.white);
         resultLabel = new JLabel("Sum");
         resultLabel = new JLabel("Result");
-        resultLabel.setFont(new Font("Arial", Font.BOLD, 14));
+        resultLabel.setFont(new Font("Arial", Font.BOLD, 20));
         resultLabel.setForeground(Color.blue);
         firstText = new JTextField(10);
         secondText = new JTextField(10);

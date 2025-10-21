@@ -1,4 +1,4 @@
-package week6.pack1.pack2;
+package week6.pack2;
 
 import week6.pack1.Access;
 

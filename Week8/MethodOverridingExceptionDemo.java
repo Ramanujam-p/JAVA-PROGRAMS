@@ -1,9 +1,11 @@
-package Week8;
+package week8;
+
 class SuperClass {
     public void performTask() throws Exception {
         System.out.println("SuperClass: Performing a task that might throw Exception");
     }
 }
+
 class SubClass extends SuperClass {
     @Override
     public void performTask() {
@@ -23,4 +25,3 @@ public class MethodOverridingExceptionDemo {
         }
     }
 }
-

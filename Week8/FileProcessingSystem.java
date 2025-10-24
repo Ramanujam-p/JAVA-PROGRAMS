@@ -1,4 +1,5 @@
-package Week8;
+package week8;
+
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
@@ -29,7 +30,7 @@ class FileProcessor {
 public class FileProcessingSystem {
 
     public static void main(String[] args) {
-         System.out.println("REG NO: 2024503525 NAME:RAMANUJAM.P");
+        System.out.println("REG NO: 2024503525 NAME:RAMANUJAM.P");
         FileProcessor processor = new FileProcessor();
 
         try {

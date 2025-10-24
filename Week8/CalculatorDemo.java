@@ -1,18 +1,23 @@
-package Week8;
+package week8;
+
 import java.util.Scanner;
+
 class Calculator {
     public int parseInput(String input) {
-        return Integer.parseInt(input); 
+        return Integer.parseInt(input);
     }
+
     public int divide(int a, int b) {
-        return a / b; 
+        return a / b;
     }
+
     public int calculate(String num1, String num2) {
         int a = parseInput(num1);
         int b = parseInput(num2);
         return divide(a, b);
     }
 }
+
 public class CalculatorDemo {
     public static void main(String[] args) {
         System.out.println("REG NO: 2024503525 NAME:RAMANUJAM.P");
@@ -36,4 +41,3 @@ public class CalculatorDemo {
         }
     }
 }
-

@@ -1,4 +1,4 @@
-package Week8;
+package week8;
 
 import java.io.*;
 

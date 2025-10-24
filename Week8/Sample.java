@@ -1,15 +1,17 @@
-package Week8;
+package week8;
+
 import java.util.Scanner;
+
 public class Sample {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("REG NO: 2024503525 NAME:RAMANUJAM.P");
-        //withour try catch
+        // withour try catch
         double a = 5.0 / 0;
         System.out.println(a);
-        //double b = 5 / 0;
-        //System.out.println(b);
-        //with try catch
+        // double b = 5 / 0;
+        // System.out.println(b);
+        // with try catch
         double c = 5.0 / 0;
         System.out.println(c);
         try {
@@ -34,9 +36,7 @@ public class Sample {
             int num = Integer.parseInt(str1); // This will throw NumberFormatException
         } catch (NumberFormatException e) {
             System.out.println("Caught a NumberFormatException: Can't convert a string to a number");
-        }
-        finally
-        {
+        } finally {
             System.out.println("hello");
         }
         sc.close();

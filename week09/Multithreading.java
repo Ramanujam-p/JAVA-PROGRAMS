@@ -1,4 +1,4 @@
-package week9;
+package week09;
 
 class Prime implements Runnable {
     private int start, end;

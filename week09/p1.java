@@ -1,4 +1,4 @@
-package week9;
+package week09;
 
 class Add extends Thread {
     int x, y;

@@ -13,6 +13,10 @@ interface Human {
         System.out.println("hello");// default methods can have a body
     }
 
+    private void learn() {
+        System.out.println("learning");// private methods can have a body
+    }
+
     int x = 10;// public static final by default
 }
 
@@ -40,6 +44,6 @@ public class interfaceBasic {
         p.speak();// default method called using object of implementing class
         p.run();
         p.read();
-
+        // p.learn();
     }
 }

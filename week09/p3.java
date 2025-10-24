@@ -1,4 +1,4 @@
-package week9;
+package week09;
 
 public class p3 {
     private int c = 0;

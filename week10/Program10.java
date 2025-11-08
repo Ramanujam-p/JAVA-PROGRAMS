@@ -9,7 +9,8 @@ public class Program10 extends JFrame implements ActionListener {
 
     Program10() {
         super("addition program");
-        setLayout(new GridLayout());
+        getContentPane().setBackground(Color.PINK);
+        setLayout(new FlowLayout());
         l1 = new JLabel("enter first number:");
         l2 = new JLabel("enter second number:");
         l3 = new JLabel("Result:");

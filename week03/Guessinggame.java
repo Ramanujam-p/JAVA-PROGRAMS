@@ -11,7 +11,7 @@ class GuessingGame {
     public static void game(Scanner sc) {
         System.out.println("\nWelcome to the Guessing Game!");
         Random r = new Random();
-        int secretNumber = r.nextInt(100) + 1; // Generates number between 1 and 100
+        int secretNumber = r.nextInt(1, 100); // Generates number between 1 and 100
         int guesses = 0;
 
         System.out.println("Guess the number between 1 and 100.");

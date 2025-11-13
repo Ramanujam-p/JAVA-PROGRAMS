@@ -8,7 +8,7 @@ public class str {
         String s1 = "Welcome To Java";
         String s2 = s1;
         String s3 = new String("Welcome To Java");
-        String s4 = s1.intern();
+        String s4 = s3.intern();
         String s = "    hi";
 
         // Comparing references using ==
